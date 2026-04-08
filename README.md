@@ -1,25 +1,46 @@
-# Calendar
+# Calendar Component
 
-Компонент календарь на Vue 3 с TypeScript.
+A multilingual calendar component built with Vue 3 and TypeScript.
 
-## Технологии
+## Preview
+
+![Calendar Preview](public/calendar-preview.png)
+
+## Technologies
 
 - **Vue 3**
 - **TypeScript**
+- **CSS**
 - **i18n**
 
-## Разработка
+## Architecture
+
+```
+src/
+├── assets/                 # Static assets
+├── components/             # Vue components
+│   ├── Calendar.vue        # Calendar component
+│   ├── Input.vue           # Input component
+│   └── Select.vue          # Select component
+│
+├── i18n.ts                 # Localization configuration
+├── main.ts                 # Application entry point
+├── App.vue                 # Root component
+└── style.css               # Global styles
+```
+
+## Development
 
 ```bash
-# Установка зависимостей
+# Install dependencies
 yarn install
 
-# Запуск разработки
+# Start development server
 yarn dev
 
-# Сборка проекта
+# Build the project
 yarn build
 
-# Предпросмотр проекта
+# Preview the build
 yarn preview
 ```
