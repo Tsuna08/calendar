@@ -1,4 +1,4 @@
-# Calendar Component
+# Calendar
 
 A multilingual calendar component built with Vue 3 and TypeScript.
 
